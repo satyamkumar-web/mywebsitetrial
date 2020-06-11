@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header_area {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: background 0.4s, all 0.3s linear;
+    
+    transition-property: background, all;
+    transition-duration: 0.4s, 0.3s;
+    transition-timing-function: ease, linear;
+    transition-delay: 0s, 0s;
+}
+
+div {
+    display: block;
+}
+
+.header_area .navbar {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+@media (min-width: 992px) .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;}
+
+@media (min-width: 992px)
+.navbar-expand-lg>.container{
+    flex-wrap: nowrap;
+}
+.navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1170px;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.header_area .navbar .navbar-brand {
+    padding-top: 0;
+}
+
+.header_area .navbar .logo_h {
+    color: #fff;
+    height: 80px;
+    text-align: center;
+    line-height: 69px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+
+    transition: all 0.3s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+a {
+    background-color: transparent;}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.header_area .navbar .logo_h {
+    color: #fff;
+    text-align: center;
+    line-height: 69px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-brand {
+	    white-space: nowrap;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-left-color: rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+}
+
+button {
+	-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+        text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+}
+.navbar-toggler {
+	font-size: 1.25rem;
+    line-height: 1;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+	font-family: inherit;
+}
+button {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    font: 400 13.3333px Arial;
+}
+
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-collapse {
+	display: flex !important;
+	    flex-basis: auto;
+}
+
+.navbar-collapse {
+	flex-grow: 1;
+	align-items: center;
+}
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-nav {
+	flex-direction: row;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.navbar-nav {
+	display: flex;
+	padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav {
+	flex-wrap: wrap;
+}
+ul {
+	padding: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
+ul {
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.header_area .navbar .nav .nav-item {
+    margin-right: 45px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.navbar-nav {
+	    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+.header_area .navbar .nav .nav-item .nav-link {
+    font: 400 12px/80px "Poppins", sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 0px;
+    display: inline-block;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+a {
+	background-color: transparent;
+}
+a:-webkit-any-link {
+	cursor: pointer;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.navbar-nav {
+	list-style: none;
+}
